@@ -9,12 +9,12 @@ authors.workspace = true
 gstd = { workspace = true, features = ["debug"] }
 parity-scale-codec.workspace = true
 scale-info.workspace = true
-tmg1-io.workspace = true
+tmg1_io.workspace = true
 
 [build-dependencies]
 gmeta.workspace = true
 gear-wasm-builder.workspace = true
-tmg1-io.workspace = true
+tmg1_io.workspace = true
 
 [dev-dependencies]
 gtest.workspace = true
